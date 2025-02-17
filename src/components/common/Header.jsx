@@ -16,7 +16,7 @@ const Header = () => {
     toast.success("Logged out successfully!");
 
     // Navigate to the login page
-    navigate("/login");
+    navigate("/");
   };
 
  
