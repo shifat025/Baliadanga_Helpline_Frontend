@@ -16,7 +16,7 @@ export default function Routeing() {
           <Route element={<MemberPage/>} path="/member" />
         </Route>
 
-        <Route element={<Login />} path="/login" exact />
+        <Route element={<Login />} path="/" exact />
       </Routes>
       {/* <Footer /> */}
     </>
