@@ -7,8 +7,8 @@ import { api } from "../../api";
 import useAuth from "../../hooks/useAuth";
 
 const Login = () => {
-  const [username, setUsername] = useState("abdullah4");
-  const [password, setPassword] = useState("@V7@Os1");
+  const [username, setUsername] = useState("");
+  const [password, setPassword] = useState("");
   const [loading, setLoading] = useState(false);
   const { setAuth } = useAuth();
   const navigate = useNavigate();

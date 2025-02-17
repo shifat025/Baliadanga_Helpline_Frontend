@@ -18,7 +18,7 @@ export default function PrivateRoutes() {
           <Footer />
         </>
       ) : (
-        <Navigate to="/login" />
+        <Navigate to="/" />
       )}
     </>
   );
